@@ -1,0 +1,21 @@
+{ 
+    "_id" : ObjectId("5d3e69372cd54e5bd49a0a6c"), 
+    "username" : "123456", 
+    "password" : "123456", 
+    "yanzhengma" : "123456", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d3eb33aadb0df1784ea5356"), 
+    "username" : "liuxinyi", 
+    "password" : "123456", 
+    "yanzhengma" : "1234", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d40f35d8cead6231035d2a3"), 
+    "username" : "liuxinyi5420", 
+    "password" : "123456", 
+    "yanzhengma" : "123456", 
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            text-align: center;
+        }
+        .content{
+            margin: 50px auto 20px;
+            border: 2px solid pink;
+            width: 400px;
+            height: 500px;
+            overflow: auto;
+        }
+        .content .p1{
+            margin: 10px 0;
+        }
+        .content .p1:nth-of-type(1){
+            color: black !important
+        }
+        #ipt{
+            width: 200px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="content">
+    </div>
+    <div class="cell">
+        <input type="text" id="ipt" placeholder="请输入聊天内容" onpaste="return false">
+        <button id="btn">点击发送</button>
+    </div>
+
+</body>
+<script src="../public/javascripts/jquery-1.11.3.js"></script>
+<script>
+    //连接websocket服务
+    const ws=new WebSocket("ws://192.168.50.39:8889")
+
+    //监听这个连接
+    ws.onopen=()=>{
+        console.log("连接成功")
+    }
+
+    //监听服务端发来的消息
+    ws.onmessage=(msg)=>{
+        const data=msg.data;
+
+        //往聊天框中添加消息
+        document.querySelector(".content").innerHTML+=`<p class="p1">${data}</p>`;
+    }
+
+    //点击发送信息
+    document.querySelector("#btn").onclick=()=>{
+        //获取输入框的内容
+        const val=document.querySelector("#ipt").value;
+        var p=document.querySelectorAll(".p1")
+        for(var i=0;i<p.length;i++){
+            p[i].style.color= `rgb(${Math.round(Math.random() *255)},${Math.round(Math.random() *255)},${Math.round(Math.random() *255)})`;
+        }
+        
+
+        if(!val) return false
+
+        //向服务端发送消息
+        ws.send(val)
+        $("#ipt").val("")
+        
+    }
+    
+    //监听服务端的断开
+    ws.onclose=()=>{
+        console.log("聊天室被封了")
+    }
+</script>
+</html>

@@ -1,0 +1,11 @@
+{ 
+    "_id" : ObjectId("5d42427f2babb22e74b2039e"), 
+    "username" : "liuxinyi5420", 
+    "cartsName" : "花样年华", 
+    "cartsPrice" : NumberInt(369), 
+    "cartsImg" : "/images/img/19.jpg", 
+    "cartsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解。", 
+    "cartsType" : "精品花束", 
+    "buyNum" : NumberInt(2), 
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 移动端适配第一步，设置meta，令布局视口等于设备宽度，初始缩放比例为1 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>myvue</title>
+    <!-- 移动端适配第二步，设置根元素的字体大小 -->
+    <!-- 移动端适配第二步，使用rem作为css单位 -->
+    <style>
+      html{
+        font-size: calc(100vw/7.5);
+      }
+      body{
+        font-size: 0.24rem;
+      }
+    </style>
+    <!-- 打包出来样式放在这里 -->
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but myvue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+      <!-- 打包出来的标签放在这里 -->
+    </div>
+    <!-- 打包出来的脚本放在这里 -->
+    <!-- built files will be auto injected -->
+  </body>
+</html>

@@ -1,0 +1,783 @@
+{ 
+    "_id" : ObjectId("5d3bff762c55bb639aab2afc"), 
+    "swiper" : "轮播图", 
+    "img" : "/images/img/swipe.jpg"
+}
+{ 
+    "_id" : ObjectId("5d3bff782c55bb639aab2afd"), 
+    "swiper" : "轮播图", 
+    "img" : "/images/img/lb3.jpg"
+}
+{ 
+    "_id" : ObjectId("5d3fa450109e254c6cd4e4ad"), 
+    "classify" : [
+        {
+            "id" : NumberInt(1), 
+            "name" : "小桌摆", 
+            "list" : [
+                {
+                    "id" : "1-1", 
+                    "name" : "观叶绿植", 
+                    "list" : [
+                        {
+                            "id" : "1-1-1", 
+                            "goodsName" : "富贵竹（十枝）- 带花瓶", 
+                            "goodsImg" : "/images/img/1.jpg", 
+                            "goodsPrice" : 38.0, 
+                            "goodsoldPrice" : 50.0, 
+                            "goodsDesc" : "富贵竹（10枝）-带花瓶 寓意竹报平安、大吉大利"
+                        }, 
+                        {
+                            "id" : "1-1-2", 
+                            "goodsName" : "虎皮兰（自吸盆）", 
+                            "goodsImg" : "/images/img/2.jpg", 
+                            "goodsPrice" : 21.0, 
+                            "goodsoldPrice" : 25.0, 
+                            "goodsDesc" : "虎皮兰叶片坚挺直立，叶面有灰白和深绿相间的虎尾状横带斑纹，姿态刚毅，奇特有趣；并且对环境的适应能力强，为常见的室内除甲醛盆栽观叶植物。"
+                        }, 
+                        {
+                            "id" : "1-1-3", 
+                            "goodsName" : "粉黛万年青(自吸盆)", 
+                            "goodsImg" : "/images/img/3.jpg", 
+                            "goodsPrice" : 21.0, 
+                            "goodsoldPrice" : 25.0, 
+                            "goodsDesc" : "粉黛万年青学名花叶万年青，金黄色镶有绿色边缘，色彩明亮强烈，优美高雅，观赏价值高，是目前备受推崇的室内观叶植物之一。"
+                        }, 
+                        {
+                            "id" : "1-1-4", 
+                            "goodsName" : "金钱树（自吸盆）", 
+                            "goodsImg" : "/images/img/4.jpg", 
+                            "goodsPrice" : 23.0, 
+                            "goodsoldPrice" : 25.0, 
+                            "goodsDesc" : "金钱树有净化室内空气之用。其新抽的羽状复叶几乎每次都是2枚，一长一短、一粗一细，故又有“龙凤木”之别称，并象征寓意：招财进宝、荣华富贵。"
+                        }, 
+                        {
+                            "id" : "1-1-5", 
+                            "goodsName" : "翠叶竹芋（自吸盆）", 
+                            "goodsImg" : "/images/img/5.jpg", 
+                            "goodsPrice" : 23.0, 
+                            "goodsoldPrice" : 25.0, 
+                            "goodsDesc" : "翠叶竹芋枝叶生长茂密、株形丰满；叶面浓绿亮泽，叶背紫红色，形成鲜明的对比，是优良的室内喜阴观叶植物。用来布置卧室、客厅、办公室等场所，显得安静、庄重，可供较长期欣赏。"
+                        }, 
+                        {
+                            "id" : "1-1-6", 
+                            "goodsName" : "碧玉（自吸盆）", 
+                            "goodsImg" : "/images/img/6.jpg", 
+                            "goodsPrice" : 21.0, 
+                            "goodsoldPrice" : 26.0, 
+                            "goodsDesc" : "碧玉可做盆栽观赏，有药用价值，还可以防辐射。"
+                        }, 
+                        {
+                            "id" : "1-1-7", 
+                            "goodsName" : "袖珍椰子（自吸盆）", 
+                            "goodsImg" : "/images/img/7.jpg", 
+                            "goodsPrice" : 18.0, 
+                            "goodsoldPrice" : 25.0, 
+                            "goodsDesc" : "袖珍椰子小巧玲珑，株型优美，耐阴性强，是优良的室内摆放植物，也是最受欢迎的室内观景植物"
+                        }, 
+                        {
+                            "id" : "1-1-8", 
+                            "goodsName" : "绿萝（自吸盆）", 
+                            "goodsImg" : "/images/img/8.jpg", 
+                            "goodsPrice" : 18.0, 
+                            "goodsoldPrice" : 25.0, 
+                            "goodsDesc" : "绿萝遇水即活，生命力极强，被称为“生命之花”，是室内最受欢迎的摆放植物，亦是净化空气、除甲醛首选绿植。"
+                        }, 
+                        {
+                            "id" : "1-1-9", 
+                            "goodsName" : "橡皮树三棵组合（自吸盆） ", 
+                            "goodsImg" : "/images/img/9.jpg", 
+                            "goodsPrice" : 23.0, 
+                            "goodsoldPrice" : 35.0, 
+                            "goodsDesc" : "橡皮树不仅具有独特的净化粉尘功能，还可以净化挥发性有机物中的甲醛，有“吸毒王”之美誉。并且观赏价值较高，是著名的盆栽观叶植物，极适合室内美化布置。"
+                        }, 
+                        {
+                            "id" : "1-1-10", 
+                            "goodsName" : "发财树(自吸盆)", 
+                            "goodsImg" : "/images/img/10.jpg", 
+                            "goodsPrice" : NumberInt(21), 
+                            "goodsoldPrice" : NumberInt(30), 
+                            "goodsDesc" : "发财树因株型漂亮，又有招财进宝，吉祥如意的美好寓意而深受大众欢迎。"
+                        }, 
+                        {
+                            "id" : "1-1-11", 
+                            "goodsName" : "红掌(自吸盆)", 
+                            "goodsImg" : "/images/img/11.jpg", 
+                            "goodsPrice" : NumberInt(28), 
+                            "goodsoldPrice" : NumberInt(45), 
+                            "goodsDesc" : "红掌学名花烛，花叶俱美，花期长、为优质的切花材料。用红色花烛为主材，配上小菊、霞草、艳山姜、变叶木瓶插，有着浓厚的江南乡惰。可以吸收装修残留的各种有害气体，同时可以保持空气湿润，避免人体鼻粘膜干燥的作用。"
+                        }, 
+                        {
+                            "id" : "1-1-12", 
+                            "goodsName" : "一帆风顺（自吸盆）", 
+                            "goodsImg" : "/images/img/12.jpg", 
+                            "goodsPrice" : NumberInt(23), 
+                            "goodsoldPrice" : NumberInt(39), 
+                            "goodsDesc" : "一帆风顺学名白鹤芋，花茎挺拔秀美，盆栽点缀客厅、书房，十分舒坦别致，显得高雅俊美。一帆风顺有调节室内温度和湿度之功效，还有净化空气中的挥发性有机物的作用。"
+                        }
+                    ]
+                }, 
+                {
+                    "id" : "1-2", 
+                    "name" : "观花绿植", 
+                    "list" : [
+                        {
+                            "id" : "1-2-1", 
+                            "goodsName" : "栀子花（自吸盆）", 
+                            "goodsImg" : "/images/img/13.jpg", 
+                            "goodsPrice" : NumberInt(21), 
+                            "goodsoldPrice" : NumberInt(22), 
+                            "goodsDesc" : "栀子花，又名栀子、黄栀子，龙胆目茜草科，栀子花叶色四季常绿，花芳香素雅，绿叶白花，格外清丽可爱，又有一定耐荫和抗有毒气体的能力，故为良好的绿化、美化、香化的植株。"
+                        }, 
+                        {
+                            "id" : "1-2-2", 
+                            "goodsName" : "粉掌（自吸盆）", 
+                            "goodsImg" : "/images/img/15.jpg", 
+                            "goodsPrice" : NumberInt(28), 
+                            "goodsoldPrice" : NumberInt(30), 
+                            "goodsDesc" : "粉掌是天南星科多年生常绿草本花卉。粉掌的花独特，且花期较长，观赏效果好，是近年来较为流行的室内盆栽。"
+                        }, 
+                        {
+                            "id" : "1-2-3", 
+                            "goodsName" : "一帆风顺（自吸盆）", 
+                            "goodsImg" : "/images/img/12.jpg", 
+                            "goodsPrice" : NumberInt(23), 
+                            "goodsoldPrice" : NumberInt(39), 
+                            "goodsDesc" : "一帆风顺学名白鹤芋，花茎挺拔秀美，盆栽点缀客厅、书房，十分舒坦别致，显得高雅俊美。一帆风顺有调节室内温度和湿度之功效，还有净化空气中的挥发性有机物的作用。"
+                        }, 
+                        {
+                            "id" : "1-2-4", 
+                            "goodsName" : "长寿花（自吸盆）", 
+                            "goodsImg" : "/images/img/14.jpg", 
+                            "goodsPrice" : NumberInt(23), 
+                            "goodsoldPrice" : NumberInt(35), 
+                            "goodsDesc" : "长寿花植株小巧玲珑，株型紧凑，叶片翠绿，花朵密集，有很高的观赏价值，不开花时还可以赏叶，是非常理想的室内盆栽花卉。"
+                        }, 
+                        {
+                            "id" : "1-2-5", 
+                            "goodsName" : "红掌(自吸盆)", 
+                            "goodsImg" : "/images/img/11.jpg", 
+                            "goodsPrice" : NumberInt(28), 
+                            "goodsoldPrice" : NumberInt(45), 
+                            "goodsDesc" : "红掌学名花烛，花叶俱美，花期长、为优质的切花材料。用红色花烛为主材，配上小菊、霞草、艳山姜、变叶木瓶插，有着浓厚的江南乡惰。可以吸收装修残留的各种有害气体，同时可以保持空气湿润，避免人体鼻粘膜干燥的作用。"
+                        }
+                    ]
+                }, 
+                {
+                    "id" : "1-3", 
+                    "name" : "观根绿植", 
+                    "list" : [
+                        {
+                            "id" : "1-3-1", 
+                            "goodsName" : "发财树(自吸盆)", 
+                            "goodsImg" : "/images/img/10.jpg", 
+                            "goodsPrice" : NumberInt(21), 
+                            "goodsoldPrice" : NumberInt(30), 
+                            "goodsDesc" : "发财树因株型漂亮，又有招财进宝，吉祥如意的美好寓意而深受大众欢迎。"
+                        }
+                    ]
+                }, 
+                {
+                    "id" : "1-4", 
+                    "name" : "多浆多肉", 
+                    "list" : [
+                        {
+                            "id" : "1-4-1", 
+                            "goodsName" : "吉娃娃", 
+                            "goodsImg" : "/images/img/16.jpg", 
+                            "goodsPrice" : NumberInt(12), 
+                            "goodsoldPrice" : NumberInt(20), 
+                            "goodsDesc" : "温馨提醒：吉娃娃花盆包含三种样式，如无特殊备注说明外，随机发货。吉娃娃，学名吉娃莲，植株小型，无茎的莲座叶盘非常紧凑。卵形叶较厚，带小尖，蓝绿色被浓厚的白粉，叶缘为美丽的深粉红色。花序先端弯曲，钟状，红色，是一种观赏性很强的多肉植物。"
+                        }, 
+                        {
+                            "id" : "1-4-2", 
+                            "goodsName" : "犀角群", 
+                            "goodsImg" : "/images/img/17.jpg", 
+                            "goodsPrice" : NumberInt(15), 
+                            "goodsoldPrice" : NumberInt(28), 
+                            "goodsDesc" : "温馨提醒：犀角群花盆包含三种样式，如无特殊备注说明外，随机发货。犀角群为仙人掌科多年生肉质植物，喜温暖，空气潮湿、半荫环境。要求含腐殖质较多，排水良好的沙壤土。"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "id" : NumberInt(2), 
+            "name" : "鲜花花篮", 
+            "list" : [
+                {
+                    "id" : "2-1", 
+                    "name" : "精品花束", 
+                    "list" : [
+                        {
+                            "id" : "2-1-1", 
+                            "goodsName" : "一生所爱", 
+                            "goodsImg" : "/images/img/18.jpg", 
+                            "goodsPrice" : NumberInt(3999), 
+                            "goodsoldPrice" : NumberInt(6999), 
+                            "goodsDesc" : "由于999枝花束工艺复杂，请至少提前2天预订。"
+                        }, 
+                        {
+                            "id" : "2-1-2", 
+                            "goodsName" : "花样年华", 
+                            "goodsImg" : "/images/img/19.jpg", 
+                            "goodsPrice" : NumberInt(369), 
+                            "goodsoldPrice" : NumberInt(443), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-1-3", 
+                            "goodsName" : "情有独钟", 
+                            "goodsImg" : "/images/img/20.jpg", 
+                            "goodsPrice" : NumberInt(368), 
+                            "goodsoldPrice" : NumberInt(458), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-1-4", 
+                            "goodsName" : "稳稳的幸福", 
+                            "goodsImg" : "/images/img/21.jpg", 
+                            "goodsPrice" : NumberInt(268), 
+                            "goodsoldPrice" : NumberInt(368), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-1-5", 
+                            "goodsName" : "心中的歌（10枝白百合）", 
+                            "goodsImg" : "/images/img/22.jpg", 
+                            "goodsPrice" : NumberInt(189), 
+                            "goodsoldPrice" : NumberInt(269), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-1-6", 
+                            "goodsName" : "心中的歌（10枝白百合）", 
+                            "goodsImg" : "/images/img/23.jpg", 
+                            "goodsPrice" : NumberInt(138), 
+                            "goodsoldPrice" : NumberInt(168), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-1-7", 
+                            "goodsName" : "爱永不止息（33枝戴安娜）", 
+                            "goodsImg" : "/images/img/24.jpg", 
+                            "goodsPrice" : NumberInt(319), 
+                            "goodsoldPrice" : NumberInt(399), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-1-8", 
+                            "goodsName" : "幸福告白（99枝红玫瑰）", 
+                            "goodsImg" : "/images/img/25.jpg", 
+                            "goodsPrice" : NumberInt(520), 
+                            "goodsoldPrice" : NumberInt(699), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-1-9", 
+                            "goodsName" : "最美的诗（19枝红玫瑰）", 
+                            "goodsImg" : "/images/img/26.jpg", 
+                            "goodsPrice" : NumberInt(198), 
+                            "goodsoldPrice" : NumberInt(268), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-1-10", 
+                            "goodsName" : "浪漫絮语（各色玫瑰混搭）", 
+                            "goodsImg" : "/images/img/27.jpg", 
+                            "goodsPrice" : NumberInt(198), 
+                            "goodsoldPrice" : NumberInt(268), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-1-11", 
+                            "goodsName" : "怦然心动", 
+                            "goodsImg" : "/images/img/28.jpg", 
+                            "goodsPrice" : NumberInt(388), 
+                            "goodsoldPrice" : NumberInt(466), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-1-12", 
+                            "goodsName" : "阳光心情（10枝多头黄百合）", 
+                            "goodsImg" : "/images/img/29.jpg", 
+                            "goodsPrice" : NumberInt(198), 
+                            "goodsoldPrice" : NumberInt(240), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }
+                    ]
+                }, 
+                {
+                    "id" : "2-2", 
+                    "name" : "高档花盒", 
+                    "list" : [
+                        {
+                            "id" : "2-2-1", 
+                            "goodsName" : "蕾丝公主", 
+                            "goodsImg" : "/images/img/30.jpg", 
+                            "goodsPrice" : NumberInt(499), 
+                            "goodsoldPrice" : NumberInt(600), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-2-2", 
+                            "goodsName" : "You Are  My Heart", 
+                            "goodsImg" : "/images/img/31.jpg", 
+                            "goodsPrice" : NumberInt(199), 
+                            "goodsoldPrice" : NumberInt(260), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-2-3", 
+                            "goodsName" : "甜蜜拥抱（66枝）", 
+                            "goodsImg" : "/images/img/32.jpg", 
+                            "goodsPrice" : NumberInt(388), 
+                            "goodsoldPrice" : NumberInt(466), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-2-4", 
+                            "goodsName" : "最爱", 
+                            "goodsImg" : "/images/img/33.jpg", 
+                            "goodsPrice" : NumberInt(199), 
+                            "goodsoldPrice" : NumberInt(288), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-2-5", 
+                            "goodsName" : "为爱守护（21枝粉玫瑰）", 
+                            "goodsImg" : "/images/img/34.jpg", 
+                            "goodsPrice" : NumberInt(298), 
+                            "goodsoldPrice" : NumberInt(368), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-2-6", 
+                            "goodsName" : "约定", 
+                            "goodsImg" : "/images/img/35.jpg", 
+                            "goodsPrice" : NumberInt(328), 
+                            "goodsoldPrice" : NumberInt(428), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-2-7", 
+                            "goodsName" : "匆匆那年(21枝香槟玫瑰)", 
+                            "goodsImg" : "/images/img/36.jpg", 
+                            "goodsPrice" : NumberInt(218), 
+                            "goodsoldPrice" : NumberInt(288), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }, 
+                        {
+                            "id" : "2-2-8", 
+                            "goodsName" : "玫瑰之约", 
+                            "goodsImg" : "/images/img/37.jpg", 
+                            "goodsPrice" : NumberInt(218), 
+                            "goodsoldPrice" : NumberInt(288), 
+                            "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5d3fe74a31dc80ab55ac3a27"), 
+    "id" : "1-1-1", 
+    "goodsName" : "富贵竹（十枝）- 带花瓶", 
+    "goodsImg" : "/images/img/1.jpg", 
+    "goodsPrice" : 38.0, 
+    "goodsoldPrice" : 50.0, 
+    "goodsDesc" : "富贵竹（10枝）-带花瓶 寓意竹报平安、大吉大利", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe74a31dc80ab55ac3a28"), 
+    "id" : "1-1-2", 
+    "goodsName" : "虎皮兰（自吸盆）", 
+    "goodsImg" : "/images/img/2.jpg", 
+    "goodsPrice" : 21.0, 
+    "goodsoldPrice" : 25.0, 
+    "goodsDesc" : "虎皮兰叶片坚挺直立，叶面有灰白和深绿相间的虎尾状横带斑纹，姿态刚毅，奇特有趣；并且对环境的适应能力强，为常见的室内除甲醛盆栽观叶植物。", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe7dc31dc80ab55ac3a29"), 
+    "id" : "1-1-3", 
+    "goodsName" : "粉黛万年青(自吸盆)", 
+    "goodsImg" : "/images/img/3.jpg", 
+    "goodsPrice" : 21.0, 
+    "goodsoldPrice" : 25.0, 
+    "goodsDesc" : "粉黛万年青学名花叶万年青，金黄色镶有绿色边缘，色彩明亮强烈，优美高雅，观赏价值高，是目前备受推崇的室内观叶植物之一。", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe7dc31dc80ab55ac3a2a"), 
+    "id" : "1-1-4", 
+    "goodsName" : "金钱树（自吸盆）", 
+    "goodsImg" : "/images/img/4.jpg", 
+    "goodsPrice" : 23.0, 
+    "goodsoldPrice" : 25.0, 
+    "goodsDesc" : "金钱树有净化室内空气之用。其新抽的羽状复叶几乎每次都是2枚，一长一短、一粗一细，故又有“龙凤木”之别称，并象征寓意：招财进宝、荣华富贵。", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe7dc31dc80ab55ac3a2b"), 
+    "id" : "1-1-5", 
+    "goodsName" : "翠叶竹芋（自吸盆）", 
+    "goodsImg" : "/images/img/5.jpg", 
+    "goodsPrice" : 23.0, 
+    "goodsoldPrice" : 25.0, 
+    "goodsDesc" : "翠叶竹芋枝叶生长茂密、株形丰满；叶面浓绿亮泽，叶背紫红色，形成鲜明的对比，是优良的室内喜阴观叶植物。用来布置卧室、客厅、办公室等场所，显得安静、庄重，可供较长期欣赏。", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe7dc31dc80ab55ac3a2c"), 
+    "id" : "1-1-6", 
+    "goodsName" : "碧玉（自吸盆）", 
+    "goodsImg" : "/images/img/6.jpg", 
+    "goodsPrice" : 21.0, 
+    "goodsoldPrice" : 26.0, 
+    "goodsDesc" : "碧玉可做盆栽观赏，有药用价值，还可以防辐射。", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe7dc31dc80ab55ac3a2d"), 
+    "id" : "1-1-7", 
+    "goodsName" : "袖珍椰子（自吸盆）", 
+    "goodsImg" : "/images/img/7.jpg", 
+    "goodsPrice" : 18.0, 
+    "goodsoldPrice" : 25.0, 
+    "goodsDesc" : "袖珍椰子小巧玲珑，株型优美，耐阴性强，是优良的室内摆放植物，也是最受欢迎的室内观景植物", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe7dc31dc80ab55ac3a2e"), 
+    "id" : "1-1-8", 
+    "goodsName" : "绿萝（自吸盆）", 
+    "goodsImg" : "/images/img/8.jpg", 
+    "goodsPrice" : 18.0, 
+    "goodsoldPrice" : 25.0, 
+    "goodsDesc" : "绿萝遇水即活，生命力极强，被称为“生命之花”，是室内最受欢迎的摆放植物，亦是净化空气、除甲醛首选绿植。", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe7dc31dc80ab55ac3a2f"), 
+    "id" : "1-1-9", 
+    "goodsName" : "橡皮树三棵组合（自吸盆） ", 
+    "goodsImg" : "/images/img/9.jpg", 
+    "goodsPrice" : 23.0, 
+    "goodsoldPrice" : 35.0, 
+    "goodsDesc" : "橡皮树不仅具有独特的净化粉尘功能，还可以净化挥发性有机物中的甲醛，有“吸毒王”之美誉。并且观赏价值较高，是著名的盆栽观叶植物，极适合室内美化布置。", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe7dc31dc80ab55ac3a30"), 
+    "id" : "1-1-10", 
+    "goodsName" : "发财树(自吸盆)", 
+    "goodsImg" : "/images/img/10.jpg", 
+    "goodsPrice" : 21.0, 
+    "goodsoldPrice" : 30.0, 
+    "goodsDesc" : "发财树因株型漂亮，又有招财进宝，吉祥如意的美好寓意而深受大众欢迎。", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe7dc31dc80ab55ac3a31"), 
+    "id" : "1-1-11", 
+    "goodsName" : "红掌(自吸盆)", 
+    "goodsImg" : "/images/img/11.jpg", 
+    "goodsPrice" : 28.0, 
+    "goodsoldPrice" : 45.0, 
+    "goodsDesc" : "红掌学名花烛，花叶俱美，花期长、为优质的切花材料。用红色花烛为主材，配上小菊、霞草、艳山姜、变叶木瓶插，有着浓厚的江南乡惰。可以吸收装修残留的各种有害气体，同时可以保持空气湿润，避免人体鼻粘膜干燥的作用。", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe7dc31dc80ab55ac3a32"), 
+    "id" : "1-1-12", 
+    "goodsName" : "一帆风顺（自吸盆）", 
+    "goodsImg" : "/images/img/12.jpg", 
+    "goodsPrice" : 23.0, 
+    "goodsoldPrice" : 39.0, 
+    "goodsDesc" : "一帆风顺学名白鹤芋，花茎挺拔秀美，盆栽点缀客厅、书房，十分舒坦别致，显得高雅俊美。一帆风顺有调节室内温度和湿度之功效，还有净化空气中的挥发性有机物的作用。", 
+    "type" : "观叶绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe86f31dc80ab55ac3a33"), 
+    "id" : "1-2-1", 
+    "goodsName" : "栀子花（自吸盆）", 
+    "goodsImg" : "/images/img/13.jpg", 
+    "goodsPrice" : 21.0, 
+    "goodsoldPrice" : 22.0, 
+    "goodsDesc" : "栀子花，又名栀子、黄栀子，龙胆目茜草科，栀子花叶色四季常绿，花芳香素雅，绿叶白花，格外清丽可爱，又有一定耐荫和抗有毒气体的能力，故为良好的绿化、美化、香化的植株。", 
+    "type" : "观花绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe86f31dc80ab55ac3a34"), 
+    "id" : "1-2-2", 
+    "goodsName" : "粉掌（自吸盆）", 
+    "goodsImg" : "/images/img/15.jpg", 
+    "goodsPrice" : 28.0, 
+    "goodsoldPrice" : 30.0, 
+    "goodsDesc" : "粉掌是天南星科多年生常绿草本花卉。粉掌的花独特，且花期较长，观赏效果好，是近年来较为流行的室内盆栽。", 
+    "type" : "观花绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe86f31dc80ab55ac3a35"), 
+    "id" : "1-2-3", 
+    "goodsName" : "一帆风顺（自吸盆）", 
+    "goodsImg" : "/images/img/12.jpg", 
+    "goodsPrice" : 23.0, 
+    "goodsoldPrice" : 39.0, 
+    "goodsDesc" : "一帆风顺学名白鹤芋，花茎挺拔秀美，盆栽点缀客厅、书房，十分舒坦别致，显得高雅俊美。一帆风顺有调节室内温度和湿度之功效，还有净化空气中的挥发性有机物的作用。", 
+    "type" : "观花绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe86f31dc80ab55ac3a36"), 
+    "id" : "1-2-4", 
+    "goodsName" : "长寿花（自吸盆）", 
+    "goodsImg" : "/images/img/14.jpg", 
+    "goodsPrice" : 23.0, 
+    "goodsoldPrice" : 35.0, 
+    "goodsDesc" : "长寿花植株小巧玲珑，株型紧凑，叶片翠绿，花朵密集，有很高的观赏价值，不开花时还可以赏叶，是非常理想的室内盆栽花卉。", 
+    "type" : "观花绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe86f31dc80ab55ac3a37"), 
+    "id" : "1-2-5", 
+    "goodsName" : "红掌(自吸盆)", 
+    "goodsImg" : "/images/img/11.jpg", 
+    "goodsPrice" : 28.0, 
+    "goodsoldPrice" : 45.0, 
+    "goodsDesc" : "红掌学名花烛，花叶俱美，花期长、为优质的切花材料。用红色花烛为主材，配上小菊、霞草、艳山姜、变叶木瓶插，有着浓厚的江南乡惰。可以吸收装修残留的各种有害气体，同时可以保持空气湿润，避免人体鼻粘膜干燥的作用。", 
+    "type" : "观花绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe89b31dc80ab55ac3a38"), 
+    "id" : "1-3-1", 
+    "goodsName" : "发财树(自吸盆)", 
+    "goodsImg" : "/images/img/10.jpg", 
+    "goodsPrice" : 21.0, 
+    "goodsoldPrice" : 30.0, 
+    "goodsDesc" : "发财树因株型漂亮，又有招财进宝，吉祥如意的美好寓意而深受大众欢迎。", 
+    "type" : "观根绿植"
+}
+{ 
+    "_id" : ObjectId("5d3fe8e231dc80ab55ac3a39"), 
+    "id" : "1-4-1", 
+    "goodsName" : "吉娃娃", 
+    "goodsImg" : "/images/img/16.jpg", 
+    "goodsPrice" : 12.0, 
+    "goodsoldPrice" : 20.0, 
+    "goodsDesc" : "温馨提醒：吉娃娃花盆包含三种样式，如无特殊备注说明外，随机发货。吉娃娃，学名吉娃莲，植株小型，无茎的莲座叶盘非常紧凑。卵形叶较厚，带小尖，蓝绿色被浓厚的白粉，叶缘为美丽的深粉红色。花序先端弯曲，钟状，红色，是一种观赏性很强的多肉植物。", 
+    "type" : "多浆多肉"
+}
+{ 
+    "_id" : ObjectId("5d3fe8e231dc80ab55ac3a3a"), 
+    "id" : "1-4-2", 
+    "goodsName" : "犀角群", 
+    "goodsImg" : "/images/img/17.jpg", 
+    "goodsPrice" : 15.0, 
+    "goodsoldPrice" : 28.0, 
+    "goodsDesc" : "温馨提醒：犀角群花盆包含三种样式，如无特殊备注说明外，随机发货。犀角群为仙人掌科多年生肉质植物，喜温暖，空气潮湿、半荫环境。要求含腐殖质较多，排水良好的沙壤土。", 
+    "type" : "多浆多肉"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a3b"), 
+    "id" : "2-1-1", 
+    "goodsName" : "一生所爱", 
+    "goodsImg" : "/images/img/18.jpg", 
+    "goodsPrice" : 3999.0, 
+    "goodsoldPrice" : 6999.0, 
+    "goodsDesc" : "由于999枝花束工艺复杂，请至少提前2天预订。", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a3c"), 
+    "id" : "2-1-2", 
+    "goodsName" : "花样年华", 
+    "goodsImg" : "/images/img/19.jpg", 
+    "goodsPrice" : 369.0, 
+    "goodsoldPrice" : 443.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解。", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a3d"), 
+    "id" : "2-1-3", 
+    "goodsName" : "情有独钟", 
+    "goodsImg" : "/images/img/20.jpg", 
+    "goodsPrice" : 368.0, 
+    "goodsoldPrice" : 458.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a3e"), 
+    "id" : "2-1-4", 
+    "goodsName" : "稳稳的幸福", 
+    "goodsImg" : "/images/img/21.jpg", 
+    "goodsPrice" : 268.0, 
+    "goodsoldPrice" : 368.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a3f"), 
+    "id" : "2-1-5", 
+    "goodsName" : "心中的歌（10枝白百合）", 
+    "goodsImg" : "/images/img/22.jpg", 
+    "goodsPrice" : 189.0, 
+    "goodsoldPrice" : 269.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a40"), 
+    "id" : "2-1-6", 
+    "goodsName" : "心中的歌（10枝白百合）", 
+    "goodsImg" : "/images/img/23.jpg", 
+    "goodsPrice" : 138.0, 
+    "goodsoldPrice" : 168.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a41"), 
+    "id" : "2-1-7", 
+    "goodsName" : "爱永不止息（33枝戴安娜）", 
+    "goodsImg" : "/images/img/24.jpg", 
+    "goodsPrice" : 319.0, 
+    "goodsoldPrice" : 399.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a42"), 
+    "id" : "2-1-8", 
+    "goodsName" : "幸福告白（99枝红玫瑰）", 
+    "goodsImg" : "/images/img/25.jpg", 
+    "goodsPrice" : 520.0, 
+    "goodsoldPrice" : 699.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a43"), 
+    "id" : "2-1-9", 
+    "goodsName" : "最美的诗（19枝红玫瑰）", 
+    "goodsImg" : "/images/img/26.jpg", 
+    "goodsPrice" : 198.0, 
+    "goodsoldPrice" : 268.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a44"), 
+    "id" : "2-1-10", 
+    "goodsName" : "浪漫絮语（各色玫瑰混搭）", 
+    "goodsImg" : "/images/img/27.jpg", 
+    "goodsPrice" : 198.0, 
+    "goodsoldPrice" : 268.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a45"), 
+    "id" : "2-1-11", 
+    "goodsName" : "怦然心动", 
+    "goodsImg" : "/images/img/28.jpg", 
+    "goodsPrice" : 388.0, 
+    "goodsoldPrice" : 466.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe96731dc80ab55ac3a46"), 
+    "id" : "2-1-12", 
+    "goodsName" : "阳光心情（10枝多头黄百合）", 
+    "goodsImg" : "/images/img/29.jpg", 
+    "goodsPrice" : 198.0, 
+    "goodsoldPrice" : 240.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "精品花束"
+}
+{ 
+    "_id" : ObjectId("5d3fe9d031dc80ab55ac3a47"), 
+    "id" : "2-2-1", 
+    "goodsName" : "蕾丝公主", 
+    "goodsImg" : "/images/img/30.jpg", 
+    "goodsPrice" : 499.0, 
+    "goodsoldPrice" : 600.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "高级花盒"
+}
+{ 
+    "_id" : ObjectId("5d3fe9d031dc80ab55ac3a48"), 
+    "id" : "2-2-2", 
+    "goodsName" : "You Are  My Heart", 
+    "goodsImg" : "/images/img/31.jpg", 
+    "goodsPrice" : 199.0, 
+    "goodsoldPrice" : 260.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "高级花盒"
+}
+{ 
+    "_id" : ObjectId("5d3fe9d031dc80ab55ac3a49"), 
+    "id" : "2-2-3", 
+    "goodsName" : "甜蜜拥抱（66枝）", 
+    "goodsImg" : "/images/img/32.jpg", 
+    "goodsPrice" : 388.0, 
+    "goodsoldPrice" : 466.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "高级花盒"
+}
+{ 
+    "_id" : ObjectId("5d3fe9d031dc80ab55ac3a4a"), 
+    "id" : "2-2-4", 
+    "goodsName" : "最爱", 
+    "goodsImg" : "/images/img/33.jpg", 
+    "goodsPrice" : 199.0, 
+    "goodsoldPrice" : 288.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "高级花盒"
+}
+{ 
+    "_id" : ObjectId("5d3fe9d031dc80ab55ac3a4b"), 
+    "id" : "2-2-5", 
+    "goodsName" : "为爱守护（21枝粉玫瑰）", 
+    "goodsImg" : "/images/img/34.jpg", 
+    "goodsPrice" : 298.0, 
+    "goodsoldPrice" : 368.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "高级花盒"
+}
+{ 
+    "_id" : ObjectId("5d3fe9d031dc80ab55ac3a4c"), 
+    "id" : "2-2-6", 
+    "goodsName" : "约定", 
+    "goodsImg" : "/images/img/35.jpg", 
+    "goodsPrice" : 328.0, 
+    "goodsoldPrice" : 428.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "高级花盒"
+}
+{ 
+    "_id" : ObjectId("5d3fe9d031dc80ab55ac3a4d"), 
+    "id" : "2-2-7", 
+    "goodsName" : "匆匆那年(21枝香槟玫瑰)", 
+    "goodsImg" : "/images/img/36.jpg", 
+    "goodsPrice" : 218.0, 
+    "goodsoldPrice" : 288.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "高级花盒"
+}
+{ 
+    "_id" : ObjectId("5d3fe9d031dc80ab55ac3a4e"), 
+    "id" : "2-2-8", 
+    "goodsName" : "玫瑰之约", 
+    "goodsImg" : "/images/img/37.jpg", 
+    "goodsPrice" : 218.0, 
+    "goodsoldPrice" : 288.0, 
+    "goodsDesc" : "因季节原因，部分花材会有所调整。但我们会保证主花材一致，会用同等价值辅材，或高价值辅材替换。感谢您的谅解", 
+    "type" : "高级花盒"
+}
